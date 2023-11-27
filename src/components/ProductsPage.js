@@ -6,7 +6,6 @@ import ProductsTable from './ProductsTable';
 
 function ProductsPage() {
   const [products, setProducts] = useState(jsonData);
-  const [inStockOnly, setInStockOnly] = useState(false);
 
   const filterBySearch = (event) => {
     const query = event.target.value.toLowerCase();
